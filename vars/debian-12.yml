@@ -15,6 +15,6 @@
 # limitations under the License.
 
 _apt:
-  - { state: "latest", name: "ca-certificates" }
-  - { state: "latest", name: "openssl" }
-  - { state: "latest", name: "postfix" }
+  - { state: latest, name: ca-certificates }
+  - { state: latest, name: openssl }
+  - { state: latest, name: postfix }
